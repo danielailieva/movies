@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+#movies img,
+#movie img {
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar */
+.brand-text {
+  font-size: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#imdb-logo {
+  color: #f5de50;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-container {
+  background-color: black;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#searchForm {
+  margin-bottom: 8rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-gray {
+  display: inline-block;
+    border-radius: 4px;
+    background-color: #212529ad;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    width: 10rem;
+    transition: all 0.5s;
+    margin-left: 2rem;
+    outline: 1px solid #212529ad !important;
+}
+
+.btn-gray span {
+  cursor: pointer;  
+  display: inline-block;  
+  position: relative;  
+  transition: 0.5s;
+}
+
+.btn-gray span:after {
+  content: '\00bb';
+  position: absolute;  
+  opacity: 0;  
+  top: 0;  
+  right: -20px;  
+  transition: 0.5s;
+}
+
+.btn-gray:hover span {  
+  padding-right: 25px;
+  color: #bd2130c4;
+}
+
+.btn-gray:hover span:after {  
+  opacity: 1;  
+  right: 0;
+  color: #bd2130c4;
+}
+
+.img-wrapper {
+  width: 269px;
+  height: 400px;
 }
