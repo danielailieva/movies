@@ -31,7 +31,6 @@ class SearchForm extends React.Component {
                             placeholder='Search Movies, TV Series ...'
                             onChange={this.onChange}
                         />
-                        {/* <button type='submit' className='btn btn-primary btn-bg mt-3'> */}
                         <button type='submit' className='btn-gray'>
                             <span>Search</span>
             </button>
