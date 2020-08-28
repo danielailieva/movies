@@ -63,17 +63,20 @@
   top: 0;  
   right: -20px;  
   transition: 0.5s;
+  text-decoration: none;
 }
 
 .btn-gray:hover span {  
   padding-right: 25px;
   color: #bd2130c4;
+  text-decoration: none;
 }
 
 .btn-gray:hover span:after {  
   opacity: 1;  
   right: 0;
   color: #bd2130c4;
+  text-decoration: none;
 }
 
 .img-wrapper {
@@ -83,4 +86,12 @@
 
 .form-control {
   width: 50% !important;
+}
+
+.imdb-logo {
+font-size: 1.5rem;
+}
+
+.row {
+  margin: 0 !important;
 }

@@ -14,7 +14,7 @@ export default class NavBar extends React.Component {
             </div>
             <ul className='navbar-nav ml-auto text-light d-inline-block'>
               <li className='nav-item d-inline-block mr-4'>
-                <a href='https://www.imdb.com/' target='_blank'><i className='fab fa-imdb' id='imdb-logo' /></a>
+                <a href='https://www.imdb.com/' className='imdb-logo' target='_blank'><i className='fab fa-imdb' id='imdb-logo' /></a>
               </li>
             </ul>
           </div>

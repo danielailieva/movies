@@ -14,10 +14,8 @@ class MovieCard extends React.Component {
           </div>
           <div class='data'>
             <div class='content'>
-              <span class='author'>Jane Doe</span>
               <h4 class='title'><Link to={'/movie/' + movie.imdbID}>{movie.Title}</Link></h4>
               <p class='text'><Link to={'/movie/' + movie.imdbID} type='submit' className='btn-gray'>Read more</Link></p>
-              <label for='show-menu' class='menu-button'><span></span></label>
             </div>
             <input type='checkbox' id='show-menu' />
           </div>
