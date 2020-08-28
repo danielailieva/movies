@@ -5,7 +5,8 @@
 
 /* Navbar */
 .brand-text {
-  font-size: 2rem;
+  font-size: 1.2rem;
+  font-family: cursive;
 }
 
 #imdb-logo {
@@ -78,4 +79,8 @@
 .img-wrapper {
   width: 269px;
   height: 400px;
+}
+
+.form-control {
+  width: 50% !important;
 }

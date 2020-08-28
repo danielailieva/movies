@@ -19,10 +19,13 @@ class Movie extends React.Component {
         let movieInfo = (
 
             <section id='banner' class='clearfix'>
+                <Link id='back-btn' to='/' title='Go back to homepage'>
+                <i className='fas fa-arrow-left'></i>
+            </Link>
                 <div id='banner_content_wrapper'>
                     <div id='poster'>
-                        <img src={movie.Poster} alt='Deadpool Movie Poster' class='featured_image' />
-                        <img src="https://res.cloudinary.com/dw369yzsh/image/upload/v1470916845/play_button_ngnw1z.png" alt='Play Trailer' class='play_button' />
+                        <img src={movie.Poster} class='featured_image' />
+                        <img src='https://res.cloudinary.com/dw369yzsh/image/upload/v1470916845/play_button_ngnw1z.png' class='play_button' />
                     </div>
                     <div id='content'>
                         <h2 class='title'>{movie.Title}</h2>
@@ -36,7 +39,7 @@ class Movie extends React.Component {
 
                         <p class='description'>{movie.Plot}</p>
 
-                        <p class='info'> 108 min <span>|</span> {movie.Genre} <span>|</span> {movie.Released} <span>|</span> {movie.Director}
+                        <p class='info'>  {movie.Genre} <span>|</span> {movie.Released} <span>|</span> {movie.Director}
                             <span>|</span> {movie.Actors}
                         </p>
                     </div>

@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
       <div>
         <div className='row'>
           <div className='col-md-12'>
-            <div className='footer p-3 mt-4 text-center text-light'>
+            <div className='footer p-3 text-center text-light'>
               Developed By:
             <span className='font-weight-normal'>
                 Daniela Ilieva
